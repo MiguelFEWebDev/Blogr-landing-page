@@ -1,0 +1,28 @@
+body {
+  background-color: orange;
+  overflow-x: hidden;
+}
+.main-header {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+.main-nav {
+  display: flex;
+  gap: var(--gap, 2rem);
+}
+
+/* Main Header */
+
+.logo {
+  margin: 2rem;
+}
+
+.main-header {
+  align-items: center;
+}
+
+.main-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
