@@ -18,16 +18,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="main-header">
+    <header class="primary-header flex">
       <div>
         <img class="logo" src="/images/logo.svg" alt="" />
       </div>
 
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
       <nav>
-        <ul id="main-nav" class="main-nav" data-visible="false">
-          <li>Product</li>
-          <li>Company</li>
-          <li>Connect</li>
+        <ul
+          data-visible="false"
+          id="primary-navigation"
+          class="primary-navigation flex"
+        >
+          <li><a href=""> </a>Product</li>
+          <li><a href=""> </a>Company</li>
+          <li><a href=""> </a>Connect</li>
+          <div>Login</div>
+          <div>Sign up</div>
         </ul>
       </nav>
     </header>
