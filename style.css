@@ -19,7 +19,7 @@ body {
   white-space: nowrap;
   border-width: 0;
 }
-/* <----Primary header --> */
+/* Primary header */
 .logo {
   margin: 2rem;
 }
@@ -76,3 +76,5 @@ body {
     background: url(images/icon-close.svg);
   }
 }
+
+/*  Header hero page */
