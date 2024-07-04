@@ -1,5 +1,35 @@
+:root {
+  /* ## Colors
+
+### Primary */
+
+  --lightRedCTATtext: hsl(356, 100%, 66%);
+  --veryLightRedCTAHover: hsl(355, 100%, 74%);
+  --veryDarkBlue: hsl(208, 49%, 24%);
+
+  /* ### Neutral */
+
+  --whiteText: hsl(0, 0%, 100%);
+  --grayishBlueFooterText: hsl(240, 2%, 79%);
+  --veryDarkGrayishBlue: hsl(207, 13%, 34%);
+  --veryDarkBlackBlueFooterBG: hsl(240, 10%, 16%);
+
+  /* ### Gradient */
+
+  /* Background gradient - Intro/CTA mobile nav: */
+
+  --veryLightRed: hsl(13, 100%, 72%);
+  --lightRed: hsl(353, 100%, 62%);
+
+  /* Background gradient - body: */
+
+  --veryDarkGrayBlue: hsl(237, 17%, 21%);
+  --veryDarkDesaturatedBlue: hsl(237, 23%, 32%);
+}
+
 body {
-  background-color: orange;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
 }
 
@@ -27,6 +57,7 @@ body {
 .primary-header {
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .mobile-nav-toggle {
@@ -78,3 +109,9 @@ body {
 }
 
 /*  Header hero page */
+
+.hero-page {
+  min-height: 500px;
+  background: url(/images/bg-pattern-intro-desktop.svg);
+  background-size: cover;
+}
