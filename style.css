@@ -167,8 +167,6 @@ header {
 }
 .infoSectionTextTwo {
 }
-.infoSectionImage-Image {
-}
 
 /* 
 Media query */
@@ -216,5 +214,10 @@ Media query */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .infoSectionImage-Image {
+    padding: 1rem;
+    max-height: 450px;
   }
 }
