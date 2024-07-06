@@ -155,11 +155,11 @@ header {
 }
 
 .ctaButton1 {
-  background-color: white;
+  background-color: var(--whiteText);
   color: var(--lightRedCTATtext);
-  border-radius: 10px;
-  height: 2rem;
-  padding: 0.3rem;
+  border-radius: 20px;
+  height: 2.5rem;
+  padding: 0.4rem;
   font-weight: 700;
   font-size: 1.2rem;
   font-family: var(--overpass);
@@ -169,10 +169,10 @@ header {
 .ctaButton2 {
   background-color: transparent;
   color: var(--whiteText);
-  border: white;
-  border-radius: 10px;
-  height: 2rem;
-  padding: 0.3rem;
+  border: 1px solid var(--whiteText);
+  border-radius: 20px;
+  height: 2.5rem;
+  padding: 0.4rem;
   font-weight: 700;
   font-size: 1.2rem;
   font-family: var(--overpass);
