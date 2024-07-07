@@ -168,6 +168,19 @@ header {
 
 .infoSectionTextOne,
 .infoSectionTextTwo {
+  font-family: var(--overpass);
+}
+
+.infoSectionTextOne h1,
+.infoSectionTextTwo h1 {
+  color: var(--veryDarkBlue);
+  font-size: 2em;
+}
+
+.infoSectionTextOne p,
+.infoSectionTextTwo p {
+  color: var(--veryDarkGrayishBlue);
+  font-size: 1.1em;
 }
 
 /* 
