@@ -185,14 +185,19 @@ header {
 
 /* StateOfTheArt section */
 .stateOfTheArt-section {
+  height: 450px;
   display: flex;
   justify-content: center;
+  background-color: var(--veryDarkBlue);
+  border-radius: 0 80px 0 80px;
+  margin-bottom: 4rem;
 }
 
 .stateOfTheArt-img {
   padding: 2rem;
   width: 30%;
   align-content: flex-start;
+  justify-content: flex-start;
 }
 
 .stateOfTheArt-img img {
@@ -285,13 +290,16 @@ Media query */
 
   /* StateOfTheArt section */
   .stateOfTheArt-section {
+    min-height: 800px;
+    min-width: 580px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: var(--veryDarkDesaturatedBlue);
   }
 
   .stateOfTheArt-img {
-    padding: 2rem;
+    padding: 1.5rem;
     width: 50%;
     align-content: flex-start;
   }
