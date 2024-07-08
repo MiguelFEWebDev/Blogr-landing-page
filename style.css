@@ -183,6 +183,28 @@ header {
   font-size: 1.1em;
 }
 
+/* StateOfTheArt section */
+.stateOfTheArt-section {
+  display: flex;
+  justify-content: center;
+}
+
+.stateOfTheArt-img {
+  padding: 2rem;
+  width: 30%;
+  align-content: flex-start;
+}
+
+.stateOfTheArt-img img {
+  max-height: 560px;
+}
+
+.stateOfTheArt-text {
+  padding: 2rem;
+  width: 50%;
+  align-content: center;
+}
+
 /* 
 Media query */
 
@@ -259,5 +281,29 @@ Media query */
   .infoSectionImage-Image {
     padding: 1rem;
     max-height: 450px;
+  }
+
+  /* StateOfTheArt section */
+  .stateOfTheArt-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stateOfTheArt-img {
+    padding: 2rem;
+    width: 50%;
+    align-content: flex-start;
+  }
+
+  .stateOfTheArt-img img {
+    max-height: 400px;
+  }
+
+  .stateOfTheArt-text {
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+    align-content: center;
   }
 }
