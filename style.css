@@ -215,8 +215,8 @@ Media query */
     background-repeat: no-repeat;
     width: 2em;
     aspect-ratio: 1;
-    top: 3rem;
-    right: -6rem;
+    top: 2rem;
+    right: 2rem;
     border: none;
   }
 
@@ -226,9 +226,9 @@ Media query */
 
   /* Hero page */
 
-  .hero-page {
+  /* .hero-page {
     min-width: 550px;
-  }
+  } */
 
   .hero-pageCTA h1 {
     padding: 3rem;
@@ -257,7 +257,7 @@ Media query */
   }
 
   .infoSectionImage-Image {
-    padding: -rem;
-    max-height: 500px;
+    padding: 1rem;
+    max-height: 450px;
   }
 }
